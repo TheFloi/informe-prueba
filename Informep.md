@@ -82,12 +82,12 @@ El análisis se realizó en un entorno controlado para evaluar la seguridad de u
 
 ## Línea de Tiempo de Hallazgos
 
-| Fecha y Hora      | Evento/Acción           | Detalles                            |
+| Fecha     | Evento/Acción           | Detalles                            |
 |------------------|--------------------------|-------------------------------------|
-| 2024-08-13 02:17 | Inicio del Escaneo       | Comienzo del escaneo de puertos      |
-| 2024-08-13 02:17 | Escaneo Completo         | Se completó el escaneo de puertos    |
-| 2024-08-13 02:18 | Análisis de Servicios    | Revisión de servicios detectados     |
-| 2024-08-13 02:18 | Generación del Informe   | Compilación de hallazgos en el informe|
+| 2024-08-13  | Inicio del Escaneo       | Comienzo del escaneo de puertos      |
+| 2024-08-13  | Escaneo Completo         | Se completó el escaneo de puertos    |
+| 2024-08-13  | Análisis de Servicios    | Revisión de servicios detectados     |
+| 2024-08-13  | Generación del Informe   | Compilación de hallazgos en el informe|
 
 ---
 
