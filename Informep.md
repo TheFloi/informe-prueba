@@ -7,22 +7,22 @@
 **Autor:** Joel  
 **Organización:** Fucap
 ---
-
+![fucap](LOGO-FUCAP.png).
 ## Resumen Ejecutivo
 
-Este informe presenta los hallazgos del análisis forense realizado en el equipo con IP 192.168.43.15. El análisis ha identificado varios servicios activos y configuraciones básicas en el sistema en el cual esta la pagina de Marketing. No se han detectado vulnerabilidades graves, pero se han observado configuraciones que podrían ser mejoradas para optimizar la seguridad.
+Este informe presenta los hallazgos del análisis forense realizado en el equipo con IP 192.168.43.15. El análisis ha identificado varios servicios activos y configuraciones básicas en el sistema en el cual esta la pagina de Marketing. No se han detectado vulnerabilidades graves, pero se han observado configuraciones que podrían ser mejoradas para optimizar la seguridad. Esto sin considerar que el dispositivo esta en uso constante y eso puede llevar a tener vulnerabilidades futuras
 
 ---
 
 ## Introducción
 
-El propósito de este informe es proporcionar una visión general de los resultados del escaneo forense realizado en un sistema de prueba. Se enfoca en identificar servicios activos y posibles configuraciones inseguras.
+El propósito de este informe es proporcionar una visión general de los resultados del escaneo forense realizado en un sistema. Se enfoca en identificar servicios activos y posibles Vulnerabilidades que puedan afectar a el localhost y comprometa la seguridad de la pagina.
 
 ---
 
 ## Antecedentes del Caso
 
-El análisis se realizó en un entorno de laboratorio para evaluar la seguridad de un sistema en red. La IP objetivo es 192.168.43.15, que representa un servidor de prueba con varias aplicaciones instaladas.
+El análisis se realizó en un entorno controlado para evaluar la seguridad de un sistema en red. La IP objetivo es 192.168.43.15, que representa un servidor de prueba con varias aplicaciones instaladas.
 
 ---
 
@@ -45,8 +45,8 @@ El análisis se realizó en un entorno de laboratorio para evaluar la seguridad 
 ## Herramientas Usadas
 
 - **Nmap**: Para escaneo de puertos y detección de servicios.
-- **Wireshark**: Para captura y análisis de tráfico de red (opcional en este caso).
-- **Autopsy**: Para análisis de archivos y recuperación de datos (opcional en este caso).
+- **Wireshark**: Para captura y análisis de tráfico de red.
+- **Autopsy**: Para análisis de archivos y recuperación de datos.
 
 ---
 
@@ -94,7 +94,7 @@ El análisis se realizó en un entorno de laboratorio para evaluar la seguridad 
 ## Posibles Vectores de Ataque
 
 - **Puerto 80/tcp**: Puede ser susceptible a ataques web comunes si no se actualiza regularmente.
-- **Puerto 3306/tcp**: Posibles riesgos si las credenciales predeterminadas están en uso.
+- **Puerto 3306/tcp**: Posibles riesgos si las credenciales están en uso.
 - **Puerto 3000/tcp**: Asegúrate de que no haya configuraciones predeterminadas expuestas en producción.
 
 ---
@@ -121,11 +121,9 @@ El escaneo ha revelado varios servicios activos en el sistema. Aunque no se han 
 
 ## Anexos
 
-- **Anexo 1**: Resultados detallados del escaneo de Nmap.
-- **Anexo 2**: Capturas de pantalla de la interfaz de servicios detectados.
-- **Anexo 3**: Configuraciones básicas de servicios revisadas.
+- **Anexo 1**: ![nmap](locooo.png).
+- **Anexo 2**: ![packetes wireshark](locooo2.png).
+- **Anexo 3**: 
 
 ---
-
-**Nota:** Este informe es un ejemplo simulado y no refleja un análisis real. Asegúrate de adaptar los detalles y recomendaciones según el entorno y los hallazgos reales en una investigación forense.
 
