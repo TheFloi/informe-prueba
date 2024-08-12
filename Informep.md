@@ -52,7 +52,7 @@ El análisis se realizó en un entorno controlado para evaluar la seguridad de u
 
 ## Técnicas de Análisis
 
-- **Escaneo SYN Stealth**: Para identificar puertos abiertos sin establecer conexiones completas.
+- **Escaneo nmap**: Para identificar puertos abiertos sin establecer conexiones completas.
 - **Detección de Servicios**: Para obtener información sobre las versiones de los servicios detectados.
 - **Revisión de Metadatos**: Para analizar configuraciones básicas y posibles debilidades.
 
@@ -109,12 +109,12 @@ El escaneo ha revelado varios servicios activos en el sistema. Aunque no se han 
 
 ### A Corto Plazo
 
-1. **Actualizar el Servicio Web**: Asegúrate de que el servidor web esté actualizado con los últimos parches de seguridad.
-2. **Cambiar Contraseñas Predeterminadas**: Cambia las contraseñas predeterminadas de MySQL y revisa los permisos.
+1. **Actualizar el Servicio Web**: Asegúrarse de que el servidor web esté actualizado con los últimos parches de seguridad.
+2. **Cambiar Contraseñas Predeterminadas**: Cambiar las contraseñas predeterminadas de MySQL y revisa los permisos.
 
 ### A Largo Plazo
 
-1. **Implementar Reglas de Cortafuegos**: Configura reglas de cortafuegos para limitar el acceso a puertos sensibles.
+1. **Implementar Reglas de algun firewall**: Configura reglas de firewall para limitar el acceso a puertos sensibles.
 2. **Monitorear Servicios**: Implementa herramientas de monitoreo para detectar y responder a posibles actividades sospechosas.
 
 ---
@@ -123,7 +123,7 @@ El escaneo ha revelado varios servicios activos en el sistema. Aunque no se han 
 
 - **Anexo 1**: ![nmap](locooo.png).
 - **Anexo 2**: ![packetes wireshark](locooo2.png).
-- **Anexo 3**: 
+- **Anexo 3**: ![login](paginalogin.png)
 
 ---
 
